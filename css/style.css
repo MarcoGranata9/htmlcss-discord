@@ -34,7 +34,7 @@ nav ul {
 }
 
 .gray {
-    background-color: gray;
+    background-color: #f6f6f6;
 }
 
 .white-t {
@@ -45,6 +45,25 @@ nav ul {
     background-color: white;
     padding: 0.7rem;
     border-radius: 1.2rem;
+}
+
+.title-f {
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.text-f {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+
+.img-width {
+    width: 60%;
+}
+
+.text-width {
+    width: 40%;
 }
 /* Header */
 header {
@@ -76,18 +95,13 @@ nav a {
     text-align: end;   
 }
 
-/* .login a {
-    background-color: white;
-    padding: 0.7rem;
-    border-radius: 1.2rem;
-} */
 /* Main */
 
 .hero {
     background-image: url(../img/jumbo.png);
     background-size: 100%;
     background-repeat: no-repeat ;
-    min-height: 580px;
+    min-height: 560px;
     justify-content: center;
     align-items: center;
     font-size: 1.4rem;
@@ -117,37 +131,47 @@ nav a {
     margin-left: 1rem;
 }
 
+/* Section server */
+
 .bg-white {
     background-color: white;
-    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.server-title {
+    font-size: 3rem;    
+}
+
+/* Section channel */
+
+.channel {
+    padding: 100px 0;
     justify-content: center;
     align-items: center;
 }
 
-.section-blue {
-    background-color: #1e90ff;
-    width: 60%;
-    min-height: 400px;
-}
+/* Section tech */
 
-.section-pink {
-    background-color: #ffc0cb;
-    width: 40%;
-    min-height: 400px;
-}
-
-.bg-gray {
-    background-color: gray;
-    min-height: 500px;
-    justify-content: center;
+.tech {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.section-green {
-    background-color: green;
-    width: 100%;
-    min-height: 700px;
+.tech h3 {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
+
+.tech .dow-mac {
+    background-color: #7289da;
+    color: white;
+    margin-bottom: 10rem;
+}
+
+
 
 /* Footer */
 .bg-black {
