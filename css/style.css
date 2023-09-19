@@ -36,6 +36,16 @@ nav ul {
 .gray {
     background-color: gray;
 }
+
+.white-t {
+    color: white;
+}
+
+.btn-link {
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 1.2rem;
+}
 /* Header */
 header {
     background-color: #255ee9;
@@ -66,24 +76,45 @@ nav a {
     text-align: end;   
 }
 
-.login a {
+/* .login a {
     background-color: white;
     padding: 0.7rem;
     border-radius: 1.2rem;
-}
+} */
 /* Main */
 
-.bg-blue {
-    background-color: blue;
-    min-height: 500px;
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    min-height: 580px;
     justify-content: center;
     align-items: center;
+    font-size: 1.4rem;
 }
 
-.hero {
-    background-color: blueviolet;
-    min-height: 400px;
+.hero-text {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     width: 60%;
+}
+
+.hero-title {
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+.hero-p {
+    text-align: center;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.open-brw {
+    background-color: #23272a;
+    margin-left: 1rem;
 }
 
 .bg-white {
