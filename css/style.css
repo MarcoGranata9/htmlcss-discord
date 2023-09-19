@@ -45,7 +45,7 @@ nav ul {
 .btn-link {
     background-color: white;
     padding: 0.7rem;
-    border-radius: 1.2rem;
+    border-radius: 1.5rem;
 }
 
 .title-f {
@@ -233,21 +233,21 @@ nav a {
 hr {
     border-color: #7188d6;
     color: #7188d6;
-    
 }
 
 .bg-black-s {
     background-color: #23272a;
-    height: 100px;
-    align-items: end;
-    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 
 .bg-acqua {
-    background-color: aquamarine;
-    height: 50px;
     width: 100%;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
+.f-btn {
+    background-color: #7188d6;
+    color: white;    
+}
