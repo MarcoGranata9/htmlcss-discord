@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 img {
     max-width: 100%;
 }
@@ -34,38 +38,39 @@ nav ul {
 }
 /* Header */
 header {
-    background-color: lightblue;
-    padding: 1rem;
+    background-color: #255ee9;
+    padding: 1.5rem;
 }
 
-.gold {
-    background-color: goldenrod;
-    padding: 1rem;
-}
-
-.logo {
-    width: calc(100% / 3);
-    display: flex;
-    border: 1px dashed black;
+.row-header {
+    background-color: #255ee9;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
-    width: calc(100% / 3);
     display: flex;
     justify-content: center;
-    border: 1px dashed black;
-}
-
-.login {
-    width: calc(100% / 3);
-    text-align: end;
-    border: 1px dashed black;
+    
 }
 
 nav li {
-    margin: 0 5px;
+    margin: 0 1rem;
 }
 
+nav a {
+    color: white;
+}
+
+.login {
+    text-align: end;   
+}
+
+.login a {
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 1.2rem;
+}
 /* Main */
 
 .bg-blue {
