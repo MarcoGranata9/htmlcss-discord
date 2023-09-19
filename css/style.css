@@ -1,0 +1,159 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+/* Common */
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.gray {
+    background-color: gray;
+}
+/* Header */
+header {
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+.gold {
+    background-color: goldenrod;
+    padding: 1rem;
+}
+
+.logo {
+    width: calc(100% / 3);
+    display: flex;
+    border: 1px dashed black;
+}
+
+nav {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    border: 1px dashed black;
+}
+
+.login {
+    width: calc(100% / 3);
+    text-align: end;
+    border: 1px dashed black;
+}
+
+nav li {
+    margin: 0 5px;
+}
+
+/* Main */
+
+.bg-blue {
+    background-color: blue;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-color: blueviolet;
+    min-height: 400px;
+    width: 60%;
+}
+
+.bg-white {
+    background-color: white;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-blue {
+    background-color: #1e90ff;
+    width: 60%;
+    min-height: 400px;
+}
+
+.section-pink {
+    background-color: #ffc0cb;
+    width: 40%;
+    min-height: 400px;
+}
+
+.bg-gray {
+    background-color: gray;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-green {
+    background-color: green;
+    width: 100%;
+    min-height: 700px;
+}
+
+/* Footer */
+.bg-black {
+    background-color: #23272a;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-row {
+    width: calc(70% / 4);
+    background-color: #1e90ff;
+    min-height: 400px;
+}
+
+.f-row1 {
+    width: 30%;
+    background-color: #ffc0cb;
+    min-height: 400px;
+}
+
+hr {
+    background-color: gray;
+    height: 2px;
+}
+
+.bg-black-s {
+    background-color: #23272a;
+    height: 100px;
+    align-items: end;
+    justify-content: center;
+}
+
+.bg-acqua {
+    background-color: aquamarine;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+button {
+    background-color: aquamarine;
+}
+
