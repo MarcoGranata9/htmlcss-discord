@@ -161,18 +161,19 @@ nav a {
     align-items: center;
 }
 
-.tech h3 {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
-
 .tech .dow-mac {
     background-color: #7289da;
     color: white;
     margin-bottom: 10rem;
+    margin-top: 3rem;
 }
 
-
+.star {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1rem 2rem;
+}
 
 /* Footer */
 .bg-black {
@@ -250,4 +251,17 @@ hr {
 .f-btn {
     background-color: #7188d6;
     color: white;    
+}
+
+/* Wave */
+.wave {
+    content: "";
+    background-color: #f6f6f6;
+    -webkit-mask-image: url(../img/wave.svg);
+    mask-image: url(../img/wave.svg);
+    height: 100px;
+}
+
+.reverse {
+    transform: rotate(3.142rad);
 }
